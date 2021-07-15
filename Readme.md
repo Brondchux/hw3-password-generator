@@ -55,8 +55,8 @@ The image below shows the preview of what my password generator should look like
 
 ---
 ## Useful Links
-1. 🌍 [Click me to view deployed application on github pages](https://github.com/Brondchux/hw3-password-generator)
-2. 🗂 [Click me to view github repository for this project](https://brondchux.github.io/hw3-password-generator)
+1. 🗂 [Click me to view github repository for this project](https://github.com/Brondchux/hw3-password-generator)
+2. 🌍 [Click me to view deployed application on github pages](https://brondchux.github.io/hw3-password-generator)
 
 ---
 ## Credits
