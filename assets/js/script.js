@@ -1,6 +1,6 @@
-// =============================
+// *****************************
 // Global Variables Starts Here
-// =============================
+// *****************************
 
 // Store our users criteria selections in object globally
 var usersCriteria = {
@@ -31,12 +31,66 @@ var combinedCharactersArray = [];
 // Global Variables Stops Here
 // =============================
 
-// =============================
-// Main Logic Starts Here
-// =============================
+// *****************************
+// Run Application Starts Here
+// *****************************
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
+// =============================
+// Run Application Stops Here
+// =============================
+
+// *****************************
+// Main Logic Starts Here
+// *****************************
+
+// Run generate password function
+function generatePassword() {
+	// run the function to recieve users inputs to aid our customization
+	passwordLengthFunction();
+	useLowerCaseFunction();
+	useUppercaseFunction();
+	useSpecialCharsFunction();
+	useNumericCharsFunction();
+
+	// Ensure a password length was provided
+	if (!usersCriteria.passwordLength) {
+		return alert(
+			"Generating password failed! Password length is required to proceed! Try again."
+		);
+	}
+
+	// Ensure at least one criteria was selected
+	if (
+		!usersCriteria.useLowerCase &&
+		!usersCriteria.useUpperCase &&
+		!usersCriteria.useSpecialChars &&
+		!usersCriteria.useNumericChars
+	) {
+		return alert(
+			"Generating password failed! At least one criteria is required to proceed! Try again."
+		);
+	}
+
+	// Proceed to run the combine selected arrays function
+	combineTheArraysFunction();
+
+	// Run the randomized character selection function and return the final secured password
+	return randomCharactersFunction();
+}
+
+// =============================
+// Main Logic Stops Here
+// =============================
+
+// *********************************
+// Methods Declarations Starts Here
+// *********************************
 
 // Write password to the #password input
 function writePassword() {
@@ -171,52 +225,6 @@ function randomCharactersFunction() {
 	return generatedPasswordCharacters;
 }
 
-// Run generate password function
-function generatePassword() {
-	// run the function to recieve users inputs to aid our customization
-	passwordLengthFunction();
-	useLowerCaseFunction();
-	useUppercaseFunction();
-	useSpecialCharsFunction();
-	useNumericCharsFunction();
-
-	// Ensure a password length was provided
-	if (!usersCriteria.passwordLength) {
-		return alert(
-			"Generating password failed! Password length is required to proceed! Try again."
-		);
-	}
-
-	// Ensure at least one criteria was selected
-	if (
-		!usersCriteria.useLowerCase &&
-		!usersCriteria.useUpperCase &&
-		!usersCriteria.useSpecialChars &&
-		!usersCriteria.useNumericChars
-	) {
-		return alert(
-			"Generating password failed! At least one criteria is required to proceed! Try again."
-		);
-	}
-
-	// Proceed to run the combine selected arrays function
-	combineTheArraysFunction();
-
-	// Run the randomized character selection function and return the final secured password
-	return randomCharactersFunction();
-}
-
-// =============================
-// Main Logic Stops Here
-// =============================
-
-// =============================
-// Run Application Starts Here
-// =============================
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
-// =============================
-// Run Application Stops Here
-// =============================
+// ================================
+// Methods Declarations Stops Here
+// ================================
