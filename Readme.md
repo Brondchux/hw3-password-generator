@@ -13,8 +13,9 @@ This project is intended to generate a random and secured password based on our 
 3. [Acceptance Criteria](https://github.com/Brondchux/hw3-password-generator#acceptance-criteria)
 4. [Mock-Up Preview](https://github.com/Brondchux/hw3-password-generator#mock-up-preview)
 5. [Useful Links](https://github.com/Brondchux/hw3-password-generator#useful-links)
-6. [Credits](https://github.com/Brondchux/hw3-password-generator#credits)
-7. [Licence](https://github.com/Brondchux/hw3-password-generator#licence)
+6. [Tech Stack](https://github.com/Brondchux/hw3-password-generator#tech-stack)
+7. [Credits](https://github.com/Brondchux/hw3-password-generator#credits)
+8. [Licence](https://github.com/Brondchux/hw3-password-generator#licence)
 
 ---
 
@@ -73,6 +74,15 @@ The image below shows the preview of what my password generator should look like
 
 ---
 
+## Tech Stack
+
+![html5 logo](./assets/images/techs/html5.png)
+![css3 logo](./assets/images/techs/css3.png)
+![jquery logo](./assets/images/techs/jquery.png)
+![github logo](./assets/images/techs/github.png)
+
+---
+
 ## Credits
 
 Appreciations to Ben 🙌🏾 of [Columbia University Coding Bootcamp](https://bootcamp.cvn.columbia.edu/coding/landing-ftpt/?s=Google-Brand&msg_cv_scta=4&msg_cv_stbn=1&msg_cv_fcta=1&dki=Learn%20Coding&pkw=%2Bcolumbia%20%2Bcoding%20%2Bbootcamp&pcrid=471112563836&pmt=b&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CCOLUMBIA-UNIVERSITY%7CSEM%7CCODING%7C-%7COFL%7CTIER-1%7CALL%7CBRD%7CBMM%7CCore%7CBootcamp&utm_term=%2Bcolumbia%20%2Bcoding%20%2Bbootcamp&s=google&k=%2Bcolumbia%20%2Bcoding%20%2Bbootcamp&utm_adgroupid=111600049635&utm_locationphysicalms=9067609&utm_matchtype=b&utm_network=g&utm_device=c&utm_content=471112563836&utm_placement=&gclid=CjwKCAjwlrqHBhByEiwAnLmYUA8CIItksRJF6IT6XMX8WOOJBO-jtCRkzXZhI2gvsZrFEpYdRXy54RoC6jQQAvD_BwE&gclsrc=aw.ds) for being our tutor in this bootcamp.
@@ -83,4 +93,4 @@ Special thanks to [Google](https://www.google.com) for helping me find the accur
 
 ## Licence
 
-Coming soon!
+MIT
