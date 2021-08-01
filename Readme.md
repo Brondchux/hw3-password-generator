@@ -78,7 +78,7 @@ The image below shows the preview of what my password generator should look like
 
 ![html5 logo](./assets/images/techs/html5.png)
 ![css3 logo](./assets/images/techs/css3.png)
-![jquery logo](./assets/images/techs/jquery.png)
+![javascript logo](./assets/images/techs/javascript.png)
 ![github logo](./assets/images/techs/github.png)
 
 ---
